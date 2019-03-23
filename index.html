@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Budżet miesięczny - Marta Kaszuba</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="top">
+	<div id="budget">
+		<div id="budget_title">
+			<h2>Budżet na miesiąc <span id="month"></span><span id="getYear"></span></h2>
+
+		</div>
+		<div id="budget_value">
+			<h1><span id="budgetValue">0</span> zł</h1>
+
+		</div>
+		<div id="container">
+		<div id="budget_income">
+			<h3 id="inctxt">Dochód</h3>
+			<h3 id="income"><span id="incomespan">0</span> zł</h3>
+
+		</div>
+		<div id="budget_expenses">
+			<h3 id="exptxt">Wydatki</h3>
+			<h3 id="expenses"><span id="expensesspan">0</span> zł</h3>
+
+		</div>
+		</div>
+		</div>
+		</div>
+		<div id="middle">
+			<div id="midpad">
+			<select id="day">
+				<option>Dzień</option>
+			</select>
+			<select id="incomeorexp">
+				<option>Dochód</option>
+				<option>Wydatki</option>
+			</select>
+			<input type="text" placeholder="Dodaj opis" id="description">
+			<input type="number" placeholder="Wpisz wartość" id="numbervalue">
+			<input type="submit" value="Zatwierdź" id="btn">
+			<p id="error"></p>
+             </div>
+		</div>
+        <div id="bottom">
+		<div id="divIncome">
+		<h3>DOCHÓD</h3>
+		
+		</div>
+
+		<div id="divExpenses">
+		<h3>WYDATKI</h3>
+		
+		</div>
+		</div>
+		<script src="app.js"></script>
+</body>
+</html>

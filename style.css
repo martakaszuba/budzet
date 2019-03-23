@@ -1,0 +1,183 @@
+	
+	* {
+font-family:"Open Sans", sans-serif;
+margin:0;
+	}
+
+	#budget {
+margin:0 auto;
+width:490px;
+height:230px;
+	}
+
+		#top {
+height:230px;
+background: -webkit-linear-gradient(45deg, #d0e2ef 0%,#226893 100%,#7db9e8 100%);
+text-align:center;
+		}
+
+		#budget_title {
+			padding-top:20px;
+			padding-bottom:15px;
+		}
+
+		#budget_income {
+         width:240px;
+		 height:38px;
+		 margin:0 auto;
+		 margin-bottom:10px;
+		 margin-top:25px;
+		 margin-right:10px;
+		 padding-top:10px;
+		 background-color:#235775;
+		 color:#CCDFED;
+		 border-radius:10px;
+		 float:left;
+		 box-shadow: 2px 2px 7px #0e2e3f;
+		}
+
+#budget_income #inctxt {
+	float:left;
+	margin-left:15px;
+}
+
+#budget_expenses #exptxt {
+	float:left;
+	margin-left:15px;
+}
+
+		#budget_expenses {
+		 width:240px;
+		 height:38px;
+		 margin:0 auto;
+		 margin-bottom:10px;
+		 margin-top:25px;
+		 padding-top:10px;
+		 background-color:#BFD6E6;
+		 border-radius:10px;
+		 color:#235775;
+		 float:left;		 
+         box-shadow: 2px 2px 7px #9bb4c4;
+        
+		}
+
+#container {
+width:800px;
+height:140px;
+margin:0 auto;
+}
+
+#income {
+float:right;
+margin-right:15px;
+}
+
+#expenses {
+float:right;
+margin-right:15px;
+}
+
+#middle {
+height:120px;
+background-color:#e1ecf2;
+padding-top:40px;
+box-sizing:border-box;
+margin:0 auto;
+box-shadow: 1px 1px 3px #9bb4c4;
+}
+
+#midpad {
+text-align:center;
+}
+
+input {
+padding:5px;
+margin-right:5px;
+}
+
+select {
+padding:5px;
+margin-right:5px;
+}
+
+#divIncome {
+width:50%;
+height:400px;
+float:left;
+padding-top:10px;
+}
+
+#divIncome h3 {
+color:#276C96;
+margin-bottom:20px;
+margin-top:20px;
+text-shadow: 0.5px 0.5px 0.5px #665f5f;
+}
+
+#divExpenses {
+width:50%;
+height:400px;
+float:right;
+padding-top:10px;
+}
+
+#divExpenses h3 {
+color:#276C96;
+margin-bottom:20px;
+margin-top:20px;
+text-shadow: 0.5px 0.5px 0.5px #665f5f;
+}
+
+#error {
+color:red;
+padding:10px;
+}
+
+.divclassnew {
+width:90%;
+height:30px;
+padding:5px;
+}
+
+.left {
+float:left;
+margin-left:5px;
+}
+
+.right {
+float:right;
+}
+
+.fa-trash {
+color:#A6A6A6;
+cursor:pointer;
+}
+
+#bottom h3{
+text-align:center;
+}
+
+#bottom {
+height:150px;
+}
+
+#btn {
+	background-color:#33749c;
+	border:none;
+	color:white;
+	padding:6px 15px;
+	margin-left:20px;
+	cursor:pointer;
+	border-radius:5px;
+	font-family:"Open Sans";
+	font-size:15px;
+	outline:none;
+	box-shadow: 2px 2px 2px grey;
+}
+
+#btn:hover {
+	box-shadow: 2px 2px 2px grey;
+	outline:none;
+	background-color:#245675;
+
+}
